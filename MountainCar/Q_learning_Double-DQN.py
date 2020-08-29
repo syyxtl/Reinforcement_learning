@@ -107,13 +107,3 @@ SCORES = DQN_LEARN(env, agent)
 
 plt.plot(SCORES, color='green')
 plt.show()
-
-# import numpy as np
-# A=np.array([[0,1,2],[3,4,1]])
-# B=A.argmax(axis=-1)
-# C=np.array([[5,2,2],[5,5,7]])
-# D=C[np.arange(C.shape[0]), B] 
-# print(A)
-# print(B)
-# print(C)
-# print(D)
